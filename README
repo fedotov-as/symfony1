@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffedotov-as%2Fsymfony1.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffedotov-as%2Fsymfony1?ref=badge_shield)
+
 Symfony is a complete framework designed to optimize the development of web applications by way of several key features.
 For starters, it separates a web application's business rules, server logic, and presentation views.
 It contains numerous tools and classes aimed at shortening the development time of a complex web application.
@@ -18,3 +20,7 @@ INSTALLATION
 ------------
 
 see http://www.symfony-project.org/getting-started/1_4/en/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffedotov-as%2Fsymfony1.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffedotov-as%2Fsymfony1?ref=badge_large)
