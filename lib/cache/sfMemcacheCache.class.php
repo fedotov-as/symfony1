@@ -236,7 +236,7 @@ class sfMemcacheCache extends sfCache
    */
   protected function setMetadata($key, $lifetime)
   {
-    $this->memcache->set($this->getOption('prefix').'_metadata'.self::SEPARATOR.$key, array('lastModified' => time(), 'timeout' => time() + $lifetime), false, $lifetime);
+    $this->memcache->set($this->getOption('prefix').'_metadata'.self::SEPARATOR.$key, array('lastModified' => time(), 'timeout' => time() + $lifetime), false, time() + $lifetime);
   }
 
   /**
